@@ -1,0 +1,21 @@
+package com.management.model.ov.resultsetting;
+
+import lombok.Data;
+
+/**
+ * @program: management
+ * @description: 可申报的项目的简单信息
+ * @author: ggmr
+ * @create: 2018-12-17 22:58
+ */
+@Data
+public class AviProjectCategoryInfo {
+    private String type;
+    private String projectId;
+    private String projectName;
+    private String deadLine;
+    private String introduce;
+    private String isMeeting;
+    private String downLoadAddress;
+    private String projectMaxMoney;
+}
